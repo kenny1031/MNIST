@@ -59,7 +59,8 @@ pip install -r requirements.txt
 ## Usage
 To train and evaluate the model along with generating plots for training loss and test accuracy, run the training script from the command line:
 ```bash
-python train.py --data_dir "/Users/kennyyu/Desktop/projects/AI/MNIST/mnist/MNIST/raw" --epochs 5 
+python train.py --data_dir "/Users/kennyyu/Desktop/projects/AI/MNIST/mnist/MNIST/raw"
+                --epochs 5 
                 --batch_size 64 
                 --lr 0.001
 ```
